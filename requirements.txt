@@ -1,4 +1,6 @@
-Flask
+flask
 flask-cors
 requests
 strands
+strands-agents
+ollama
