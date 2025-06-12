@@ -1,0 +1,30 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.tooltip:hover .tooltip-text {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+.scroll-container {
+    scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.chat-bubble {
+    background-color: #3E3E4D;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.chat-bubble:hover {
+    background-color: #52525b;
+}
