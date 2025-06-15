@@ -3,4 +3,4 @@ flask-cors
 requests
 strands
 strands-agents
-ollama
+openai
